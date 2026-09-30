@@ -1,12 +1,13 @@
 import random
 import sys
+import time
 
 
 
 cards = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot",
          "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star",
          "The Moon", "The Sun", "Judgement", "The World"]
-ascii = ["""\                                                                                                     
+ascii = ["""\\                                                                                                     
    .+*****++++***+++*+*++++++++++++++*++***#*##**###%%%%%%%%%%%%%%%%%%####*#***#***********++**:.   
    .*:.:::::::::.........::..........:...::::::::::::.::-=+**#**+++====--==+**%+..............+*.   
    .*::::::::::::::::::::::::::.::::::::::::::::::::::::::::::::::::::-=+*##%%%:..............-#.   
@@ -101,6 +102,7 @@ ascii = ["""\
          """]
 
 while True:
+    time.sleep(5)
     print(random.choice(ascii))
     sys.exit()
     
