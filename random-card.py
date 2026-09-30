@@ -1,0 +1,25 @@
+import random
+import sys
+
+# Display welcome message
+
+
+
+cards = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot",
+         "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star",
+         "The Moon", "The Sun", "Judgement", "The World"]
+
+while True:
+    print(random.choice(cards))
+    sys.exit()
+    
+   
+
+    # Validate user input
+    #try:
+       # choice = int(input("Type pull to pull a card: "))
+    #except ValueError:
+       # print("Type pull if you want to see a card.\n")
+
+    #while choice = "pull": 
+        #print(random.choice(cards))
